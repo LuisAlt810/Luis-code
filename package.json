@@ -1,26 +1,37 @@
 {
   "name": "luis-code",
   "version": "0.0.1",
-  "description": "anna bot. roar.",
+  "description": "Anna bot. A Discord bot with voice and YouTube music capabilities.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: No tests specified. Consider adding unit/integration tests later.\" && exit 1",
+    "lint": "eslint ."
   },
   "dependencies": {
     "discord.js": "^14.21.0",
-    "@discordjs/rest": "^1.8.0",
-    "@discordjs/builders": "^1.7.0",
-    "@discordjs/formatters": "^0.4.0",
     "@discordjs/voice": "^0.18.0",
     "@discordjs/opus": "^0.10.0",
-    "discord-api-types": "^0.37.76",
     "dotenv": "^17.0.1",
-    "node-fetch": "^3.3.2",
     "ffmpeg-static": "^5.1.0",
     "libsodium-wrappers": "^0.7.12",
     "prism-media": "^1.3.5",
     "ytdl-core": "^4.11.5"
   },
-  "author": "",
-  "license": "MIT"
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "author": "Luis",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "voice",
+    "ytdl",
+    "discord.js"
+  ]
 }
